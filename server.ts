@@ -2480,10 +2480,15 @@ async function startServer() {
         server: { middlewareMode: true },
         appType: 'spa',
       });
+      app.use('/MRTECH-AI-CREATED-BY-RAYYAN', vite.middlewares);
       app.use(vite.middlewares);
     } else {
       const distPath = path.join(process.cwd(), 'dist');
+      app.use('/MRTECH-AI-CREATED-BY-RAYYAN', express.static(distPath));
       app.use(express.static(distPath));
+      app.get('/MRTECH-AI-CREATED-BY-RAYYAN*', (req, res) => {
+        res.sendFile(path.join(distPath, 'index.html'));
+      });
       app.get('*', (req, res) => {
         res.sendFile(path.join(distPath, 'index.html'));
       });

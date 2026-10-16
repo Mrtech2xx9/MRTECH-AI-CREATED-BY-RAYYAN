@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
+import { getAssetUrl } from '../utils/assetUrl';
 import { Sparkles, Shield, Zap } from 'lucide-react';
 
 interface MrTechLogoProps {
@@ -109,7 +110,7 @@ export const MrTechLogo: React.FC<MrTechLogoProps> = ({
             {/* Logo Image / Monogram */}
             {!imgError ? (
               <img
-                src="/logo.png"
+                src={getAssetUrl('/logo.png')}
                 alt="MR TECH AI"
                 className="w-full h-full object-cover relative z-10 transition-transform duration-500 group-hover:scale-110"
                 onError={() => setImgError(true)}

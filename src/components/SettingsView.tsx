@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { getAssetUrl } from '../utils/assetUrl';
 import {
   Settings,
   Smartphone,
@@ -1848,7 +1849,7 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
         <div className="flex flex-col gap-5 mt-6 max-w-3xl">
           <div className="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 flex flex-col gap-4">
             <div className="flex items-center gap-3">
-              <img src="/logo.png" alt="Logo" className="w-14 h-14 rounded-xl border border-cyan-500/50" />
+              <img src={getAssetUrl('/logo.png')} alt="Logo" className="w-14 h-14 rounded-xl border border-cyan-500/50" />
               <div>
                 <h2 className="text-lg font-black text-white">MR TECH AI</h2>
                 <p className="text-xs font-mono text-cyan-400">CYBER • TECH • SECURITY</p>

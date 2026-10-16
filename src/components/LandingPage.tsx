@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
+import { getAssetUrl } from '../utils/assetUrl';
 import { MrTechLogo } from './MrTechLogo';
 import {
   MessageSquare,
@@ -138,7 +139,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ onStartChat, onNavigat
           <div className="relative mb-2">
             <div className="absolute inset-0 rounded-3xl bg-blue-500/10 blur-xl" />
             <img
-              src="/logo.png"
+              src={getAssetUrl('/logo.png')}
               alt="MR TECH AI"
               className="relative w-28 h-28 sm:w-36 sm:h-36 rounded-2xl border border-slate-800 shadow-2xl object-cover"
             />
