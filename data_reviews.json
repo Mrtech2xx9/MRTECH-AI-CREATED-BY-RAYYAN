@@ -1,0 +1,211 @@
+[
+  {
+    "id": "rev_1788962238179_sgttc",
+    "rating": 5,
+    "review": "System test",
+    "category": "General",
+    "quickFeedback": [
+      "Blazing Fast"
+    ],
+    "additionalComments": "",
+    "deviceMode": "auto",
+    "userEmail": "test@mrtech.ai",
+    "userName": "Tester",
+    "timestamp": "2026-09-09T13:57:18.158Z",
+    "status": "received"
+  },
+  {
+    "id": "rev_1788683650358_z2wic",
+    "rating": 5,
+    "review": "Great Gemini responses and sleek cyber dark design!",
+    "category": "General",
+    "quickFeedback": [
+      "Super fast",
+      "Clean cyber design"
+    ],
+    "additionalComments": "",
+    "deviceMode": "desktop",
+    "userEmail": "anonymous",
+    "userName": "MR TECH AI User",
+    "timestamp": "2026-09-06T08:34:10.357Z",
+    "status": "received"
+  },
+  {
+    "id": "rev_1788683592225_q2fno",
+    "rating": 5,
+    "review": "MR TECH AI is super fast and clean!",
+    "category": "Quality & Accuracy",
+    "quickFeedback": [
+      "Super fast",
+      "Accurate answers"
+    ],
+    "additionalComments": "Keep up the great work Rayyan",
+    "deviceMode": "desktop",
+    "userEmail": "anonymous",
+    "userName": "MR TECH AI User",
+    "timestamp": "2026-09-06T08:33:12.204Z",
+    "status": "received"
+  },
+  {
+    "id": "rev_1788683552788_orwnz",
+    "rating": 5,
+    "review": "",
+    "category": "General",
+    "quickFeedback": [
+      "Super fast"
+    ],
+    "additionalComments": "",
+    "deviceMode": "auto",
+    "userEmail": "rayyankolliyath@gmail.com",
+    "userName": "Rayyan",
+    "timestamp": "2026-09-06T08:32:32.788Z",
+    "status": "received"
+  },
+  {
+    "id": "rev_1788683419404_yc4vu",
+    "rating": 5,
+    "review": "",
+    "category": "General",
+    "quickFeedback": [
+      "Super fast"
+    ],
+    "additionalComments": "",
+    "deviceMode": "auto",
+    "userEmail": "rayyankolliyath@gmail.com",
+    "userName": "Rayyan",
+    "timestamp": "2026-09-06T08:30:19.404Z",
+    "status": "received"
+  },
+  {
+    "id": "rev_1788683271906_1eyjq",
+    "rating": 5,
+    "review": "",
+    "category": "General",
+    "quickFeedback": [
+      "Super fast"
+    ],
+    "additionalComments": "",
+    "deviceMode": "auto",
+    "userEmail": "rayyankolliyath@gmail.com",
+    "userName": "Rayyan",
+    "timestamp": "2026-09-06T08:27:51.907Z",
+    "status": "received"
+  },
+  {
+    "id": "rev_1788683222030_iivui",
+    "rating": 5,
+    "review": "Automated email test to mrtech2xx9@gmail.com",
+    "category": "Speed",
+    "quickFeedback": [],
+    "additionalComments": "",
+    "deviceMode": "auto",
+    "userEmail": "rayyankolliyath@gmail.com",
+    "userName": "Rayyan",
+    "timestamp": "2026-09-06T08:27:02.030Z",
+    "status": "received"
+  },
+  {
+    "id": "rev_1788683212904_ohyio",
+    "rating": 5,
+    "review": "Resend delivery test to mrtech2xx9",
+    "category": "Feature Request",
+    "quickFeedback": [],
+    "additionalComments": "",
+    "deviceMode": "auto",
+    "userEmail": "rayyankolliyath@gmail.com",
+    "userName": "Rayyan",
+    "timestamp": "2026-09-06T08:26:52.904Z",
+    "status": "received"
+  },
+  {
+    "id": "rev_1788683179598_c1k7m",
+    "rating": 5,
+    "review": "",
+    "category": "General",
+    "quickFeedback": [
+      "Super fast"
+    ],
+    "additionalComments": "",
+    "deviceMode": "auto",
+    "userEmail": "rayyankolliyath@gmail.com",
+    "userName": "Rayyan",
+    "timestamp": "2026-09-06T08:26:19.598Z",
+    "status": "received"
+  },
+  {
+    "id": "rev_1788683132764_ihy85",
+    "rating": 5,
+    "review": "Testing gmail delivery",
+    "category": "General",
+    "quickFeedback": [],
+    "additionalComments": "",
+    "deviceMode": "auto",
+    "userEmail": "rayyankolliyath@gmail.com",
+    "userName": "Rayyan",
+    "timestamp": "2026-09-06T08:25:32.764Z",
+    "status": "received"
+  },
+  {
+    "id": "rev_1788682611748_cf3oq",
+    "rating": 5,
+    "review": "best ai",
+    "category": "General",
+    "quickFeedback": [
+      "Super fast"
+    ],
+    "additionalComments": "",
+    "deviceMode": "auto",
+    "userEmail": "rayyankolliyath@gmail.com",
+    "userName": "Rayyan",
+    "timestamp": "2026-09-06T08:16:51.748Z",
+    "status": "received"
+  },
+  {
+    "id": "rev_1788682410872_zi5n8",
+    "rating": 5,
+    "review": "best ai",
+    "category": "General",
+    "quickFeedback": [
+      "Super fast"
+    ],
+    "additionalComments": "",
+    "deviceMode": "auto",
+    "userEmail": "rayyankolliyath@gmail.com",
+    "userName": "Rayyan",
+    "timestamp": "2026-09-06T08:13:30.872Z",
+    "status": "received"
+  },
+  {
+    "id": "rev_seed_1",
+    "rating": 5,
+    "review": "MR TECH AI is lightning fast and the cyber tech design looks stunning. The Gemini streaming responses and native image generator are next level!",
+    "category": "Performance",
+    "quickFeedback": [
+      "Super fast",
+      "Accurate answers",
+      "Great UI"
+    ],
+    "additionalComments": "Kudos to Rayyan for creating such a polished workspace.",
+    "deviceMode": "desktop",
+    "userEmail": "alex.dev@cyber.io",
+    "userName": "Alex Mercer",
+    "timestamp": "2026-09-05T18:30:00.000Z",
+    "status": "verified"
+  },
+  {
+    "id": "rev_seed_2",
+    "rating": 5,
+    "review": "The coding assistant and document AI handled a complex TypeScript refactor and PDF analysis flawlessly. Best Gemini workspace I've used.",
+    "category": "Coding & Tech",
+    "quickFeedback": [
+      "Clean code",
+      "Great mobile layout"
+    ],
+    "additionalComments": "Works perfectly on my phone without horizontal scrolling.",
+    "deviceMode": "phone",
+    "userEmail": "priya.n@techworld.in",
+    "userName": "Priya Nair",
+    "timestamp": "2026-09-06T04:15:00.000Z",
+    "status": "verified"
+  }
+]

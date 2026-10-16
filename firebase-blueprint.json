@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "name": "User",
+      "description": "Authenticated user profiles stored in Firestore",
+      "fields": [
+        { "name": "uid", "type": "string", "description": "Firebase Auth UID" },
+        { "name": "displayName", "type": "string", "description": "User display name" },
+        { "name": "email", "type": "string", "description": "Authenticated user email" },
+        { "name": "photoURL", "type": "string", "description": "Profile picture URL" },
+        { "name": "providerId", "type": "string", "description": "Auth provider (google.com or password)" },
+        { "name": "role", "type": "string", "description": "User role: user or admin" },
+        { "name": "age", "type": "number", "description": "User age" },
+        { "name": "phone", "type": "string", "description": "User phone number" },
+        { "name": "userType", "type": "string", "description": "User type: Student, Job / Working, or Other" },
+        { "name": "profileCompleted", "type": "boolean", "description": "Whether user completed mandatory profile fields" },
+        { "name": "createdAt", "type": "string", "description": "ISO timestamp of account creation" },
+        { "name": "lastLoginAt", "type": "string", "description": "ISO timestamp of last login" }
+      ]
+    },
+    {
+      "name": "AdminNotification",
+      "description": "Real-time login alerts and notifications sent to admin when a person logs into the AI",
+      "fields": [
+        { "name": "id", "type": "string", "description": "Unique Notification ID" },
+        { "name": "userId", "type": "string", "description": "Firebase UID of the logged in user" },
+        { "name": "userName", "type": "string", "description": "Full Name of user" },
+        { "name": "userEmail", "type": "string", "description": "Gmail / Email of user" },
+        { "name": "age", "type": "number", "description": "Age of user" },
+        { "name": "phone", "type": "string", "description": "Phone number of user" },
+        { "name": "userType", "type": "string", "description": "User Type (Student, Job, Other)" },
+        { "name": "message", "type": "string", "description": "Notification text (e.g. 1 person is login your ai)" },
+        { "name": "timestamp", "type": "string", "description": "ISO timestamp of login event" },
+        { "name": "read", "type": "boolean", "description": "Whether admin has read the notification" }
+      ]
+    },
+    {
+      "name": "Review",
+      "description": "User ratings and reviews associated with authenticated users",
+      "fields": [
+        { "name": "id", "type": "string", "description": "Unique Review ID" },
+        { "name": "userId", "type": "string", "description": "Firebase UID of reviewer" },
+        { "name": "userName", "type": "string", "description": "Display name of reviewer" },
+        { "name": "userEmail", "type": "string", "description": "Authenticated email of reviewer" },
+        { "name": "rating", "type": "number", "description": "Star rating from 1 to 5" },
+        { "name": "review", "type": "string", "description": "Review text" },
+        { "name": "category", "type": "string", "description": "Review category" },
+        { "name": "status", "type": "string", "description": "Approval status: pending, approved, or rejected" },
+        { "name": "createdAt", "type": "string", "description": "ISO timestamp of creation" },
+        { "name": "updatedAt", "type": "string", "description": "ISO timestamp of last update" }
+      ]
+    },
+    {
+      "name": "Conversation",
+      "description": "User chat histories and conversations saved in Firestore",
+      "fields": [
+        { "name": "id", "type": "string", "description": "Unique Conversation ID" },
+        { "name": "userId", "type": "string", "description": "Firebase UID of conversation owner" },
+        { "name": "title", "type": "string", "description": "Conversation title" },
+        { "name": "messages", "type": "array", "description": "List of chat messages" },
+        { "name": "createdAt", "type": "string", "description": "ISO timestamp of creation" },
+        { "name": "updatedAt", "type": "string", "description": "ISO timestamp of last update" },
+        { "name": "pinned", "type": "boolean", "description": "Whether conversation is pinned" },
+        { "name": "archived", "type": "boolean", "description": "Whether conversation is archived" }
+      ]
+    }
+  ],
+  "auth": {
+    "providers": ["google.com", "password"]
+  },
+  "roles": ["user", "admin"]
+}

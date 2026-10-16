@@ -1,0 +1,6 @@
+{
+  "name": "MR TECH AI",
+  "description": "MR TECH AI, created by RAYYAN — Advanced AI Workspace powered by high-speed AI 1 Engine.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
